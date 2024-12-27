@@ -1,0 +1,18 @@
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.form-label {
+    width: 25%; /* Ubah lebar label sesuai kebutuhan */
+    text-align: left; /* Atur teks label rata kiri */
+    padding-right: 5px; /* Kurangi jarak antara label dan input */
+    font-weight: bold;
+}
+
+.form-control {
+    flex: 1; /* Biarkan input menyesuaikan lebar container */
+    max-width: 70%; /* Tentukan batas lebar maksimal */
+    margin-left: 5px; /* Tambahkan sedikit margin kiri jika diperlukan */
+}
